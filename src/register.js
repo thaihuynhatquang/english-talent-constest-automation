@@ -4,7 +4,7 @@ const {
   clickElement,
   selectElement,
   changeInputValue
-} = require("./component");
+} = require("./function");
 
 const {
   registerInputSelect,

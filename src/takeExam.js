@@ -1,4 +1,4 @@
-const { clickElement, autoFillAnswers } = require("./component");
+const { clickElement, autoFillAnswers } = require("./function");
 const {
   URL_EXAM,
   SUBMIT_EXAM_BUTTON_ID,

@@ -1,4 +1,4 @@
-const { clickElement, changeInputValue } = require("./component");
+const { clickElement, changeInputValue } = require("./function");
 const { loginInputText, URL_LOGIN, LOGIN_BUTTON_ID } = require("./constant");
 
 const login = async (page, userData) => {

@@ -29,4 +29,4 @@ npm start
 - [**src/login.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/login.js): login
 - [**src/takeExam.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/takeExam.js): answer and submit exam
 - [**src/constant.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/constant.js): constant variable
-- [**src/component.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/component.js): reusable function
+- [**src/function.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/function.js): reusable function
