@@ -1,3 +1,5 @@
+const { TOTAL_QUESTION } = require("./constant");
+
 const clickElement = async (page, selector) => {
   try {
     await page.$(selector);
@@ -30,7 +32,7 @@ const changeInputValue = async (page, selector, value) => {
 };
 
 const autoFillAnswers = async page => {
-  for (i = 1; i < 71; ++i) {
+  for (i = 1; i < TOTAL_QUESTION - 1; ++i) {
     const selectorRadioInput = `#question${i} > div.col-md-12.question-item > div:nth-child(2) > div > input[type="radio"]`;
     const selectorTextInput = `#question${i} > div.col-md-12.question-item.form-inline > div > input[type="text"]`;
     await clickElement(page, selectorRadioInput)

@@ -51,6 +51,7 @@ const REGISTER_BUTTON_ID = "#ctl00_main_btnSubmit";
 const URL_EXAM = "https://englishtalentcontest.vn/lam-bai-thi";
 const SUBMIT_EXAM_BUTTON_ID = "#btnSubmit";
 const CONFIRM_SUBMIT_EXAM = 'button[data-bb-handler="confirm"]';
+const TOTAL_QUESTION = 70;
 
 module.exports = {
   userData,
@@ -67,5 +68,6 @@ module.exports = {
 
   URL_EXAM,
   SUBMIT_EXAM_BUTTON_ID,
-  CONFIRM_SUBMIT_EXAM
+  CONFIRM_SUBMIT_EXAM,
+  TOTAL_QUESTION
 };
