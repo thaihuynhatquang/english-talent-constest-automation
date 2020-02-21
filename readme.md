@@ -4,7 +4,7 @@ This application will auto register account, login, submit exam on [English tale
 
 ## Usage
 
-Change `Email`, `Password`, `First Name`, `Last Name`, ... in **constant.js**.
+Change `Email`, `Password`, `First Name`, `Last Name`, ... in [**constant.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/constant.js).
 
 ```
 // USER DATA CONSTANT
@@ -24,9 +24,9 @@ npm start
 
 ## Folder structure
 
-- **index.js**: execution file
-- **src/register.js**: register
-- **src/login.js**: login
-- **src/takeExam.js**: answer and submit exam
-- **src/constant.js**: constant variable
-- **src/component.js**: reusable function
+- [**index.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/index.js): execution file
+- [**src/register.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/register.js): register
+- [**src/login.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/login.js): login
+- [**src/takeExam.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/takeExam.js): answer and submit exam
+- [**src/constant.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/constant.js): constant variable
+- [**src/component.js**](https://github.com/thaihuynhatquang/english-talent-constest-automation/blob/master/src/component.js): reusable function
